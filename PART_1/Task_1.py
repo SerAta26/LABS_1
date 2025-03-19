@@ -7,4 +7,6 @@ c = len(numbers)
 d = sum(a+b)
 
 average = d/c
-print('Среднее арифметическое значение пропушеннного элемента=', average)
+numbers[4] = average
+
+print("Измененный список:", numbers)
